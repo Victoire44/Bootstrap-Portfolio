@@ -9,27 +9,27 @@ body {
   color: #777777;
 }
 /*header*/
-
 .navbar { 
   padding: 0
  } 
 
- .nav-bar-header{
+ .navbar-brand{
   background: #4aaaa5;
   font-family: Georgia, Times, Times New Roman, serif; 
-  font-size: 22px; 
   text-decoration: none; 
+  font-size: 30px;
  }
+
  .p-0{
    padding: 0;
  }
  /*general*/
-.main-title{
+.main-header{
   color: #4aaaa5;
   font-family: Georgia, Times, Times New Roman, serif; 
 }
 /*footer*/
- footer{
+footer{
   background: #666666;
   border-top: #4aaaa5 5px solid; 
  }
@@ -38,3 +38,13 @@ body {
  .btn {
   background: #4aaaa5; 
   border-color: transparent;
+ }
+
+  /*portolio*/
+  .container-portfolio p {
+    bottom: 20px;
+    font-weight: 300;
+
+
+
+  }
